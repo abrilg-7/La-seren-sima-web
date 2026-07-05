@@ -1,0 +1,290 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#0d4e16;
+    color:white;
+}
+
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    background:rgba(32, 117, 58, 0.8);
+    backdrop-filter:blur(10px);
+    z-index:1000;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+}
+
+.logo{
+    font-size:2rem;
+    font-weight:bold;
+    color:#ffffff;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#134e13;
+}
+
+#menu-toggle{
+    display:none;
+}
+
+.hamburguesa{
+    display:none;
+    font-size:2rem;
+    cursor:pointer;
+}
+
+
+.hero{
+    height:100vh;
+    background:url('img/produccion_lactea.png') center center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+h1{
+    font-family: "Carter One", system-ui;
+}
+
+.overlay{
+    background:rgba(0, 0, 0, 0.6);
+    padding:40px;
+    border-radius:20px;
+}
+
+.hero h1{
+    font-size:6rem;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:1.3rem;
+    margin-bottom:20px;
+    color: rgb(255, 255, 255);
+}
+
+
+.btn{
+    background:#1fa02a;
+    padding:15px 30px;
+    border-radius:30px;
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#125526;
+}
+
+section{
+    padding:80px 10%;
+}
+
+h2{
+    background-color: #0a0a0a52;
+    text-align:center;
+    margin-bottom:50px;
+    font-size:2.5rem;
+    font-family: "Fugaz One", sans-serif;
+}
+
+
+.contenedor p{
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.contenedor{
+    display:flex;
+    gap:40px;
+    align-items:center;
+}
+
+.contenedor img{
+    width:50%;
+    border-radius:20px;
+}
+
+.obt{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.mate{
+    border-radius:20px;
+    overflow:hidden;
+    transition:.4s;
+}
+
+.mate:hover{
+    transform:translateY(-10px);
+}
+
+.mate img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.info p{
+    color: #ffffff;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+
+
+.grids{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.grid{
+    border-radius:20px;
+    overflow:hidden;
+    transition:.4s;
+}
+
+.grid:hover{
+    transform:translateY(-10px);
+}
+
+.grid img{
+    width:100%;
+    height:400px;
+    object-fit:cover;
+}
+
+.dis p{
+    color: #ffffff;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+
+.proce{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.pro img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.infopr{
+    color: #ffffff;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+
+.cont{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.con img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.infoct{
+    color: #ffffff;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+
+.dist{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.dis img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.infodi{
+    color: #ffffff;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+
+.gond{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.gon img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.infogd p{
+    color: #ffffff;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+
+form{
+    max-width:600px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input,textarea{
+    padding:15px;
+    border:none;
+    border-radius:10px;
+}
+
+button{
+    padding:15px;
+    background:#13aa38;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#216d1a;
+}
